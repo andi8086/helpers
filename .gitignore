@@ -1,0 +1,10 @@
+ringbuffer/tests/build
+lua/test-lua
+*.o
+*.exe
+*.a.out
+*.a.exe
+*.d
+*.so
+*.a
+external/

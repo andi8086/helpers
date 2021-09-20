@@ -1,0 +1,30 @@
+BasedOnStyle: LLVM
+IndentWidth: 8
+UseTab: Never
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+DeriveLineEnding: true
+UseCRLF: false
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: false
+MaxEmptyLinesToKeep: 2
+AlignConsecutiveMacros: true
+IndentPPDirectives: AfterHash
+SortIncludes: false
+ForEachMacros: ['FOREACH_PIPELINE_ELEMENT']
+ColumnLimit: 80
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: true 
+AlignEscapedNewlines: Left
+AlignOperands: true 
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+# AllowShortEnumsOnASingleLine: false   (Clang Format 11 needed)
+AlwaysBreakBeforeMultilineStrings: false
+BinPackParameters: true
+# BitFieldColonSpacing: Both (Clang Format 12 needed)
+
+
