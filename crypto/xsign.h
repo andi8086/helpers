@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 
+
 void xed25519_sign(uint8_t signature[64],
                    const uint8_t secret_key[32],
                    const uint8_t random[64],

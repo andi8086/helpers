@@ -47,7 +47,7 @@ static void hexdump(uint8_t *data, size_t len)
 }
 
 
-int main(void)
+int test_main(void)
 {
         char buffer[64];
         /* B generates identity key and prekeys and publishes them */
