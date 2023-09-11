@@ -16,6 +16,7 @@ fi
 if [ "${LUA_DIR}x" == "x" ]; then
         echo "Please specify LUA_DIR=<source directory>"
         exit -1
+else
+        cp -R ${LUA_DIR}/ lua
 fi
 
-cp -R ${LUA_DIR}/ lua

@@ -7,4 +7,7 @@ lua/test-lua
 *.d
 *.so
 *.a
-external/
+external/monocypher
+external/zlib
+external/pcre2
+external/lua

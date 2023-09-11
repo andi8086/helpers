@@ -3,9 +3,9 @@
 
 if [ "$1x" == "--gitx" ]; then
         if [ "$2x" == "x" ]; then
-                git clone -b v4.0.2 https://github.com/LoupVaillant/Monocypher.git monocypher
+                git clone -b 4.0.2 https://github.com/LoupVaillant/Monocypher.git monocypher
         else
-                git clone -b v4.0.2 $2 monocypher
+                git clone -b 4.0.2 $2 monocypher
         fi
         exit 0
 fi
